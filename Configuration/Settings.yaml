@@ -201,3 +201,7 @@ Neos:
             implementationClassName: Neos\Flow\Validation\Validator\RegularExpressionValidator
           'Neos.Flow:Count':
             implementationClassName: Neos\Flow\Validation\Validator\CountValidator
+          'Neos.Flow:FileSize':
+            implementationClassName: Neos\Flow\Validation\Validator\FileSizeValidator
+          'Neos.Flow:FileExtension':
+            implementationClassName: Neos\Flow\Validation\Validator\FileExtensionValidator
